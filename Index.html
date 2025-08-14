@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Waste Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Packaging Waste Calculator</h1>
+
+  <label>Packaging Type:</label>
+  <input id="type" placeholder="Plastic/Cardboard"><br>
+
+  <label>Quantity per Month:</label>
+  <input id="quantity" type="number"><br>
+
+  <label>Weight per Unit (kg):</label>
+  <input id="weight" type="number" step="0.01"><br>
+
+  <button onclick="calculateWaste()">Calculate</button>
+
+  <h2 id="result"></h2>
+  <h3>Suggestions for Improvement:</h3>
+  <p id="suggestions"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
